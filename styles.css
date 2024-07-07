@@ -209,32 +209,59 @@ span {
 
 
 /* Coming soon section styles starts here */
-.coming-soon{
+.coming-soon-container {
+    width: 1320px;
+    height: 463px;
+    /* border: 2px solid red; */
+    margin: 0 auto;
+    margin-top: 120px;
     display: flex;
+    flex-direction: row;
     justify-content: space-around;
-    margin-left: 280px;
-    margin-right: 280px;
-    margin-top: 50px;
-    gap: 50px;
-    border: 2px solid red;
+    align-items: center;
+    /* padding: 10px; */
+    margin-bottom: 120px;
 }
-.img-circle{
+
+.img-circle {
     border: #FF0000 20px solid;
     border-radius: 50%;
     padding: 30px;
 }
 
-.coming-soon-description{
-    color: #070211;
+.coming-soon-description {
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
     font-size: 20px;
-    opacity: .6;
+    font-weight: 400;
+    margin-bottom: 30px;
 }
-.new-better-offer{
+
+.offer {
+    color: rgb(255, 0, 0);
+    /* font-family: Inter; */
     font-size: 24px;
-    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0%;
+    /* text-align: center; */
 }
-.coming-soon-title{
+
+.come-soon {
+    color: rgb(7, 2, 17);
+    font-family: Merriweather;
     font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 16px;
+}
+
+.coming-soon-year {
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    margin-top: 112px;
+    margin-bottom: 15px;
 }
 
 /* Holiday section styles starts here */
@@ -324,7 +351,6 @@ span {
 
 
 /* Portfolio styles */
-
 .portfolio-container {
     width: 1320px;
     height: 1163px;
@@ -377,8 +403,63 @@ span {
 }
 
 /* Subscribe Newsletter styles starts here */
+.subscribe-container {
+    /* border: 2px solid red; */
+    width: 1320px;
+    height: 616px;
+    margin: 0 auto;
+    margin-top: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 0, 0, 0.05);
+}
 
+.sub-title {
+    color: rgb(7, 2, 17);
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    text-align: center;
+    margin-top: 48px;
+    margin-bottom: 22px;
+}
 
+.sub-des {
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.sub1 {
+    /* position: absolute; */
+    width: 300px;
+    height: 72px;
+    left: 476px;
+    right: -476px;
+    top: 6454.07px;
+    bottom: -6454.07px;
+    border-radius: 50px;
+    text-align: center;
+    background: rgb(255, 255, 255);
+}
+
+.sub2 {
+    /* position: absolute; */
+    width: 150px;
+    height: 72px;
+    left: 914px;
+    right: -914px;
+    top: 6454.07px;
+    bottom: -6454.07px;
+    text-align: center;
+    border-radius: 0px 50px 50px 0px;
+    background: rgb(255, 0, 0);
+}
 
 /* Footer styles */
 .footer-container {
@@ -390,7 +471,7 @@ span {
     padding: 100px;
 }
 
-.footer-first-section{
+.footer-first-section {
     display: flex;
     color: white;
     /* border: 2px solid red; */
@@ -401,19 +482,19 @@ span {
     margin-bottom: 50px;
 }
 
-.contact{
+.contact {
     display: flex;
     color: #ffffff;
 }
 
-.hr{
+.hr {
     width: 90%;
     margin: 0 auto;
     margin-top: 30px;
     /* margin-bottom: 50px; */
 }
 
-.social-icon{
+.social-icon {
     width: 280px;
     margin: 0 auto;
     /* border: 2px solid red; */
@@ -423,7 +504,7 @@ span {
     justify-content: space-evenly;
 }
 
-.footer-end-text{
+.footer-end-text {
     width: 90%;
     height: 30px;
     margin: 0 auto;
@@ -434,7 +515,7 @@ span {
     justify-content: space-between;
 }
 
-.hr2{
+.hr2 {
     width: 90%;
     margin: 0 auto;
     margin-bottom: 50px;
