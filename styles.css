@@ -72,7 +72,6 @@ h1 {
 
 .second-section-content h1 {
     color: rgb(255, 0, 0);
-    font-family: Inter;
     font-size: 88px;
     font-weight: 700;
     margin-bottom: 48px;
@@ -91,7 +90,6 @@ h1 {
 
 .second-section-content h3 {
     color: rgb(7, 2, 17);
-    font-family: Inter;
     font-size: 48px;
     font-weight: 700;
     margin-bottom: 48px;
@@ -107,4 +105,195 @@ h1 {
 .image-container img {
     width: 100%;
     height: 100%;
+}
+
+/* Midnight section styles starts */
+
+.midnight-party-container {
+    width: 1320px;
+    height: 600px;
+    /* border: 2px solid red; */
+    border-radius: 15px;
+    margin: 0 auto;
+    margin-top: 120px;
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-image: url(./images/Vectorrr.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: overlay;
+}
+
+.leftside-content {
+    width: 50%;
+    /* border: 2px solid green; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+
+.leftside-content h1 {
+    color: rgb(255, 255, 255);
+    font-family: Merriweather;
+    font-size: 64px;
+    font-weight: 900;
+    margin-bottom: 24px;
+}
+
+.leftside-content p {
+    color: rgba(255, 255, 255, 0.8);
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-left: 60px;
+    margin-bottom: 24px;
+}
+
+#midnight-button {
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    margin-right: 350px;
+
+}
+
+.rightside-content {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rightside-content img {
+    /* position: absolute; */
+    width: 349.16px;
+    height: 464.65px;
+}
+
+/* Address Card styles section starts here */
+
+.address-card-container {
+    width: 1320px;
+    height: 482px;
+    /* border: 2px solid red; */
+    border-radius: 16px;
+    background: linear-gradient(180.00deg, rgba(255, 0, 0, 0.1), rgba(255, 0, 0, 0) 100%);
+    margin: 0 auto;
+    margin-top: 120px;
+    /* margin-bottom: 120px; */
+}
+
+.card-content {
+    width: 37%px;
+    height: 482px;
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 600;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+span {
+    color: red;
+}
+
+
+/* Coming soon section styles starts here */
+
+
+/* Holiday section styles starts here */
+.holiday-section-container {
+    width: 1320px;
+    height: 986.07px;
+    border: 2px solid red;
+    margin: 0 auto;
+    /* margin-top: 120px; */
+    position: relative;
+    margin-top: 120px;
+}
+
+.holiday-text-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* height dite hobe jodi kaj na kore */
+    width: 1068px;
+    height: 260px;
+    margin: 0 auto;
+}
+
+.holiday-text-content h5 {
+    color: rgb(7, 2, 17);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.holiday-text-content h2 {
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 91px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.holiday-text-content p {
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+#holiday {
+    color: rgb(255, 0, 0);
+}
+
+.solid-color {
+    width: 1320px;
+    height: 229px;
+    background-color: rgb(255, 0, 0);
+    position: absolute;
+    top: 77%;
+}
+
+.giftbox {
+    width: 674.82px;
+    height: 577.96px;
+    position: relative;
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+}
+
+.first-image{
+    /* width: 800px;
+    height: 700px; */
+}
+
+.girl-image{
+    width: 429px;
+    height: 433px;
+    position: relative;
+    left: 50%;
+    /* left: 29% */
+    top: 30%;
+}
+
+.discount{
+    position: absolute;
+    bottom: 30%;
+    left: 60%;
+    z-index: 1;
 }
