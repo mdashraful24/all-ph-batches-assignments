@@ -336,7 +336,7 @@ span {
     justify-content: space-between;
 }
 
-.g-box{
+.g-box {
     position: relative;
     top: 21%;
     right: 10%;
@@ -545,17 +545,19 @@ span {
     margin-top: 10px;
     margin-bottom: 50px;
 }
+
 .footer-first-section p {
     color: rgb(255, 255, 255);
-font-family: Inter;
-font-size: 24px;
-font-weight: 500;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
 }
+
 .footer-first-section p {
     color: rgb(255, 255, 255);
-font-family: Inter;
-font-size: 24px;
-font-weight: 500;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
 }
 
 .contact {
