@@ -8,6 +8,7 @@ body {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    /* background: #ececec; */
 }
 
 /* Header style*/
@@ -322,6 +323,8 @@ span {
     background-color: rgb(255, 0, 0);
     position: absolute;
     top: 77%;
+    /* border-redius: top, right, bottom, left */
+    border-radius: 0px 0px 16px 16px;
 }
 
 .giftbox {
@@ -333,19 +336,25 @@ span {
     justify-content: space-between;
 }
 
-.girl-image {
+.g-box{
+    position: relative;
+    top: 21%;
+    right: 10%;
+    left: 2%;
+}
+
+.t-shirt {
     width: 429px;
     height: 433px;
     position: relative;
-    left: 50%;
-    /* left: 29% */
-    top: 30%;
+    left: 35%;
+    top: 15.1%;
 }
 
 .discount {
     position: absolute;
-    bottom: 30%;
-    left: 60%;
+    bottom: 31%;
+    left: 56.4%;
     z-index: 1;
 }
 
@@ -415,6 +424,7 @@ span {
     align-items: center;
     background-color: rgba(255, 0, 0, 0.05);
     margin-bottom: 120px;
+    border-radius: 16px;
 }
 
 .sub-title {
@@ -436,31 +446,84 @@ span {
     margin-bottom: 50px;
 }
 
-.sub1 {
-    /* position: absolute; */
-    width: 300px;
-    height: 72px;
-    left: 476px;
-    right: -476px;
-    top: 6454.07px;
-    bottom: -6454.07px;
-    border-radius: 50px;
-    text-align: center;
-    background: rgb(255, 255, 255);
+/* 1st way */
+.button {
+    position: relative;
+    display: inline-block;
+    box-sizing: border-box;
+    transition: .5s;
+    /* border: 2px solid red; */
 }
 
-.sub2 {
-    /* position: absolute; */
-    width: 150px;
+.email {
+    background: rgb(255, 255, 255);
+    /* width: 340px;
+    height: 50px; */
+    width: 370px;
     height: 72px;
-    left: 914px;
-    right: -914px;
-    top: 6454.07px;
-    bottom: -6454.07px;
-    text-align: center;
-    border-radius: 0px 50px 50px 0px;
-    background: rgb(255, 0, 0);
+    font-size: 18px;
+    font-weight: 400;
+    border: none;
+    outline: none;
+    padding: 0 25px;
+    border-radius: 50px 0 0 50px;
 }
+
+.subscribe {
+    width: 160px;
+    height: 72px;
+    font-size: 20px;
+    font-weight: 600;
+    border: none;
+    outline: none;
+    position: relative;
+    left: -5px;
+    border-radius: 0 50px 50px 0;
+    cursor: pointer;
+    background: rgb(255, 0, 0);
+    color: #fff;
+}
+
+/* 2nd way */
+/* .form-box {
+    position: relative;
+    display: inline-block;
+    box-sizing: border-box;
+    transition: .5s;
+    background: #ececec;
+    box-shadow: 10px 10px 15px #c7c4c4, -10px -10px 15px #fff;
+}
+.form-box input {
+    background: rgb(255, 255, 255);
+    width: 370px;
+    height: 72px;
+    color: rgba(7, 2, 17, 0.3);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    border: none;
+    outline: none;
+    padding: 0 25px;
+    border-radius: 50px 0 0 50px;
+}
+.form-box button {
+    width: 160px;
+    height: 72px;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 600;
+    border: none;
+    outline: none;
+    position: relative;
+    left: -5px;
+    border-radius: 0 50px 50px 0;
+    cursor: pointer;
+    background: rgb(255, 0, 0);
+    color: #fff;
+}
+.form-box button:hover {
+    background: #2e54d3;
+} */
 
 /* Footer styles */
 .footer-container {
@@ -481,6 +544,18 @@ span {
     justify-content: space-between;
     margin-top: 10px;
     margin-bottom: 50px;
+}
+.footer-first-section p {
+    color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 24px;
+font-weight: 500;
+}
+.footer-first-section p {
+    color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 24px;
+font-weight: 500;
 }
 
 .contact {
